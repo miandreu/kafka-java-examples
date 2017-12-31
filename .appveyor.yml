@@ -1,0 +1,14 @@
+version: '1.0.0-dev.{build}'
+
+shallow_clone: true
+
+build: on
+
+os:
+  - Visual Studio 2015
+
+install:
+  - echo "Install"
+
+build_script:
+- echo "Build"
