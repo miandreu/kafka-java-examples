@@ -12,3 +12,9 @@ install:
 
 build_script:
 - echo "Build"
+
+artifacts:
+  - path: 1.0.0-dev.{build}.zip
+    name: MyApp
+
+
